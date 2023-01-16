@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 
 
 
+
 const imageStyle = {
     height: "100vh",
     width: "40vw",
@@ -44,7 +45,7 @@ const Welcome = () => {
         <Grid item lg={6} md={8} >
             <div style={welcomeDiv}>
                  <h1 style={welcomeTitle} >Welcome To AVIRA E-Commerce</h1>
-                 <Button style={getStartedButton} variant="contained">Get Started</Button>
+                 <Button href = "LoginRegister" style={getStartedButton} variant="contained">Get Started</Button>
                 <p style={welcomeParagraph}>
                 Thank you for visiting my online store. This ecommerce website has been designed and developed by me using the MERN stack (MongoDB, Express, React, and Node.js). Take a look around and you'll find a range of products available for purchase. I hope you enjoy your shopping experience and come back again soon! 
                 </p>
